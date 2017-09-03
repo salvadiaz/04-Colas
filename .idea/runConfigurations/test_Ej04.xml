@@ -1,0 +1,6 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="test_Ej04" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="04_Cola" TARGET_NAME="run_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="04_Cola" RUN_TARGET_NAME="run_test" TEST_CLASS="test_Ej04" TEST_MODE="SUITE_TEST">
+    <envs />
+    <method />
+  </configuration>
+</component>
