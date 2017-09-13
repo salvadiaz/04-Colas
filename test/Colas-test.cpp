@@ -15,10 +15,10 @@ TEST(test_Cola, agregoTres_noVacia) {
     EXPECT_EQ(miCola->esVacia(), false);
 }
 
-TEST(test_Cola, popEnSentidoInverso) {
-    EXPECT_EQ(miCola->desencolar(), 1);
-    EXPECT_EQ(miCola->desencolar(), 2);
+TEST(test_Cola, dequeueEnSentidoInverso) {
     EXPECT_EQ(miCola->desencolar(), 3);
+    EXPECT_EQ(miCola->desencolar(), 2);
+    EXPECT_EQ(miCola->desencolar(), 1);
     EXPECT_EQ(miCola->esVacia(), true);
 }
 
